@@ -34,5 +34,5 @@ packages = []
 [tool.setuptools.package-data]
 "*" = ["py.typed"]
 
-[project.scripts]
-langgraph-dev = "langgraph.cli:dev_command --config ch9/py/langgraph.json --verbose"
+# [project.scripts]
+# langgraph-dev = "langgraph.cli:dev_command --config ch9/py/langgraph.json --verbose"
