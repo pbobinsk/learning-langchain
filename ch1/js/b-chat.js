@@ -1,5 +1,6 @@
 import { ChatOpenAI } from '@langchain/openai';
 import { HumanMessage } from '@langchain/core/messages';
+import 'dotenv/config';
 
 const model = new ChatOpenAI();
 const prompt = [new HumanMessage('What is the capital of France?')];

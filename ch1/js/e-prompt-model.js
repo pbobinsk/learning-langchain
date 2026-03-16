@@ -1,5 +1,6 @@
 import { PromptTemplate } from '@langchain/core/prompts';
 import { OpenAI } from '@langchain/openai';
+import 'dotenv/config';
 
 const model = new OpenAI({
   model: 'gpt-3.5-turbo',
